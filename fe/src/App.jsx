@@ -5,6 +5,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Weclome from "./components/pages/home";
 import Register from "./components/pages/register";
+import About from "./components/pages/showstudent";
+import Edit from "./components/pages/editstudent";
 
 function App() {
   return (
@@ -13,6 +15,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Weclome />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/user/:userId" element={<Edit />} />
+          
+
+          
 
         </Routes>{" "}
       </Router>

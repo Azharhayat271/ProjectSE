@@ -51,7 +51,7 @@ const TopBar = ({ openDrawer }) => {
             Home
           </Link>
           <Link to="/about" className="text-black">
-            About
+            Submissions
           </Link>
           <Link to="/register" className="text-black">
             Register
