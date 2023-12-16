@@ -85,7 +85,8 @@ const Register = () => {
     const logoSrc = UET; // Replace with your logo path
 
     const pdfContent = `
-      <div class="text-center mb-8">
+    <div class="bodydiv">
+      <div class="text-center mb-8 bodydiv ">
         <img src="${logoSrc}" alt="Logo" class="w-20 h-20 mr-2"/> 
         <h1 class="text-green-500 font-bold text-4xl">UET Lahore Narowal Campus</h1>
       </div>
@@ -127,6 +128,7 @@ const Register = () => {
           <td>${form.getFieldValue("age")}</td>
         </tr>
       </table>
+      </div>
     `;
 
     const pdfElement = document.createElement("div");
