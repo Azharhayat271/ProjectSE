@@ -195,7 +195,7 @@ const UserDetails = () => {
           </Button>
         </Col>
         <Col>
-          <Button type="primary" danger onClick={handleBarcode} className="mt-4">
+          <Button type="primary" danger onClick={handleBarcode} className="mt-4 ml-10">
            Bar Code
           </Button>
         </Col>
